@@ -9,18 +9,15 @@ class App extends Component {
     console.log(arr)
     var elements = arr.map(item=>{
       return( 
-      <li key={item.id} >
-      {/* <img src={item.image} /> */}
+      <li key={item.id} style={{listStylePosition:'inside', border:'1px solid black', borderRadius:'5px', margin:'10px', listStyleType:'none'}}>
       <User item={item}/>
       </li>
       )
     })
     return (
-      <div>
-        <ul>
+        <div>
         {elements}
-        </ul>
-      </div>
+        </div>
     );
   }
 }
