@@ -9,7 +9,7 @@ class App extends Component {
     console.log(arr)
     var elements = arr.map(item=>{
       return( 
-      <li key={item.id} style={{listStylePosition:'inside', border:'1px solid black', borderRadius:'5px', margin:'10px', listStyleType:'none'}}>
+      <li key={item.id} style={{listStylePosition:'inside', border:'1px solid black', borderRadius:'5px', margin:'10px', listStyleType:'none', padding:'5px'}}>
       <User item={item}/>
       </li>
       )
