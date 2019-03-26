@@ -1,3 +1,14 @@
 #id1{
     border-radius: 50%
 }
+
+button {
+    background-color: #54d875; 
+    border-radius: 5px;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
